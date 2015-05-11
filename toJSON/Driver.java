@@ -9,13 +9,12 @@ public class Driver
 
 	public static void main(String[] args)
 	{
-		toJSON();
+		toJSON(fname, lname);
 		System.out.println("****");
 		fromJSON();
 	}
 
-
-	public static void toJSON()
+	public static void toJSON(String fname, String lname)
 	{
 		// {"fname":"Mike","lname":"Litman"} 
 		String temp = "{\"fname\":\""+fname+"\",\"lname\":\""+lname+"\"}";
@@ -34,9 +33,8 @@ public class Driver
 
 		for(int i = 0; i < fullName.length(); i++)
 		{
-			try{
-
-
+			try
+			{
 				if(fullName.charAt(i) == ':')
 				{
 					firstName = fullName.substring(i + 2, fullName.indexOf(',') - 1);
@@ -52,7 +50,6 @@ public class Driver
 			catch(Exception e)
 			{
 			}
-
 		}
 		System.out.println("Person: " + firstName + " " + lastName);
 	}
