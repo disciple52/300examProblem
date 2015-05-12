@@ -28,8 +28,7 @@ public class Person
 		return this.age;
 	}
 	
-	private fromJSON theTest;
-	public fromJSON gettheTest()
+	public fromJSON itWorks()
 	{
 		return new fromJSON(fname, lname, age);
 	}

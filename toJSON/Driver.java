@@ -7,7 +7,7 @@ public class Driver
 	{
 		Person p = new Person("Mike", "Litman", 35);
 		toJSON(p);
-		fromJSON fJSON = p.gettheTest();
+		fromJSON fJSON = p.itWorks();
 		System.out.println(fJSON);
 	}
 	
