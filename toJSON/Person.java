@@ -12,7 +12,7 @@ public class Person
 		this.lname = lname;
 		this.age = age;
 	}
-	
+	//{"fname":"Mike","lname":"Litman","age":"35"}
 	public String toJSON()
 	{
 		return "{\"fname\":\"" + this.fname + "\",\"lname\":\"" + this.lname + "\",\"age\":\"" + Integer.toString(age) + "\"}";
