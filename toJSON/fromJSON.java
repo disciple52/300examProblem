@@ -13,9 +13,8 @@ public class fromJSON
 		this.age = age;
 	}
 	
-	public String toString()
+	public String toJSON()
 	{
-		return "Person" + "(" + "\"" + this.fname + "\"" + ", " + "\"" +this.lname + "\"" + ", " + Integer.toString(age) + ")";
+		return "Person" + "(" + "\"" + this.fname + "\"" + ", " + "\"" + this.lname + "\"" + ", " + Integer.toString(age) + ")";
 	}
-
 }

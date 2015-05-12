@@ -28,11 +28,10 @@ public class Person
 		return age;
 	}
 	
-	public fromJSON itWorks()
+	public String toJSON()
 	{
-		return new fromJSON(fname, lname, age);
+		return "Person" + "(" + "\"" + this.fname + "\"" + ", " + "\"" + this.lname + "\"" + ", " + Integer.toString(age) + ")";
 	}
-	
 }
 
 
