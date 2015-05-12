@@ -2,7 +2,6 @@ package toJSON;
 
 public class Driver
 {
-	
 	public static void main(String [] args)
 	{
 		Person p = new Person("Mike", "Litman", 35);
@@ -13,6 +12,6 @@ public class Driver
 	
 	public static void toJSON(Person p)
 	{
-		System.out.println("{\"fname\":\""+p.getFname()+"\",\"lname\":\""+p.getLname()+"\",\"age\":\""+ p.getAge()+"\"}");
+		System.out.println("{\"fname\":\"" + p.getFname() + "\",\"lname\":\"" + p.getLname() + "\",\"age\":\"" + p.getAge() + "\"}");
 	}
 }

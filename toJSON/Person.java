@@ -15,17 +15,17 @@ public class Person
 	
 	public String getFname()
 	{
-		return this.fname;
+		return fname;
 	}
 	
 	public String getLname()
 	{
-		return this.lname;
+		return lname;
 	}
 	
 	public int getAge()
 	{
-		return this.age;
+		return age;
 	}
 	
 	public fromJSON itWorks()
