@@ -15,7 +15,7 @@ public class Person
 	
 	public String toJSON()
 	{
-		return "Person" + "(" + "\"" + this.fname + "\"" + ", " + "\"" + this.lname + "\"" + ", " + Integer.toString(age) + ")";
+		return "{\"fname\":\"" + this.fname + "\",\"lname\":\"" + this.lname + "\",\"age\":\"" + Integer.toString(age) + "\"}";
 	}
 }
 
